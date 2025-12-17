@@ -46,3 +46,7 @@
     "vite": "^7.2.4"
   }
 }
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+
